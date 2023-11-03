@@ -1,0 +1,36 @@
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+		url(images/iStock-\ 1190846915.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	image-rendering: optimizeSpeed;
+	filter: brightness(20%);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	padding: 8px;
+	background-color: #ffffff;
+}
+
+div.navTitle {
+	display: flexbox;
+	padding: 8px;
+	background-color: #ffffff;
+	flex-basis: auto;
+	align-self: flex-start;
+}
