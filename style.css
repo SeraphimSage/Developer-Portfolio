@@ -1,10 +1,10 @@
 body {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.227), rgba(0, 0, 0, 0.25)),
 		url(images/iStock-\ 1190846915.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	image-rendering: optimizeSpeed;
-	filter: brightness(20%);
+	/* filter: brightness(20%); */
 }
 
 ul {
@@ -24,13 +24,23 @@ li {
 li a {
 	display: block;
 	padding: 8px;
-	background-color: #ffffff;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+	display: block;
+	padding: 8px;
+	color: black;
+	background-color: lightgrey;
+	text-decoration: none;
 }
 
 div.navTitle {
 	display: flexbox;
 	padding: 8px;
-	background-color: #ffffff;
 	flex-basis: auto;
 	align-self: flex-start;
+	flex-grow: 4;
+	color: white;
 }
