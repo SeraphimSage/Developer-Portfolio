@@ -243,7 +243,10 @@ h6 {
 	height: 100vh;
 	/* Photo by <a href="https://unsplash.com/@jongrogan110?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jon Grogan</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-vehicles-12WCUSkQxz0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
 	background: url("../img/jon-grogan-12WCUSkQxz0-unsplash.webp") top center;
-	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 
 #hero:before {
