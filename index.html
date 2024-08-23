@@ -68,16 +68,17 @@ enhance team efficiency and reduce operations time."
 		/>
 
 		<!-- EmailJS setup -->
-		<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-		</script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+		></script>
 
 		<script type="text/javascript">
-   			(function(){
-      			emailjs.init({
-        			publicKey: "sP_SY3U0rF_amuFWL",
-      			});
-   			})();
+			(function () {
+				emailjs.init({
+					publicKey: "sP_SY3U0rF_amuFWL",
+				});
+			})();
 		</script>
 		<script src="./assets/js/index.js"></script>
 
@@ -233,7 +234,7 @@ enhance team efficiency and reduce operations time."
 							<div class="row">
 								<div class="col-lg-6">
 									<ul>
-										<li>
+										<!-- <li>
 											<i class="bi bi-chevron-right"></i>
 											<strong>Website:</strong>
 											<span
@@ -241,7 +242,7 @@ enhance team efficiency and reduce operations time."
 													>www.seraphicindustries.net</a
 												></span
 											>
-										</li>
+										</li> -->
 										<li>
 											<i class="bi bi-chevron-right"></i>
 											<strong>City:</strong> <span>Tulsa, OK</span>
@@ -638,7 +639,7 @@ enhance team efficiency and reduce operations time."
 			<!-- End Resume Section -->
 
 			<!-- ======= Portfolio Section ======= -->
-			<section
+			<!-- <section
 				id="portfolio"
 				class="portfolio section-bg"
 			>
@@ -657,15 +658,14 @@ enhance team efficiency and reduce operations time."
 						class="row"
 						data-aos="fade-up"
 					>
-						<!-- s -->
-					</div>
-<!-- 
+					</div> -->
+			<!-- 
 					<div
 						class="row portfolio-container"
 						data-aos="fade-up"
 						data-aos-delay="100"
 					> -->
-						<!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+			<!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
 							<div class="portfolio-wrap">
 								<img
 									src="assets/img/portfolio/portfolio-1.jpg"
@@ -857,7 +857,7 @@ enhance team efficiency and reduce operations time."
 							</div>
 						</div> -->
 
-						<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+			<!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
 							<div class="portfolio-wrap">
 								<img
 									src="assets/img/portfolio/portfolio-9.jpg"
@@ -882,7 +882,7 @@ enhance team efficiency and reduce operations time."
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!-- End Portfolio Section -->
 
 			<!-- ======= Services Section ======= -->
@@ -1226,7 +1226,12 @@ enhance team efficiency and reduce operations time."
 									</div>
 								</div>
 								<div class="text-center">
-									<button type="submit" onclick="sendMail()">Send Message</button>
+									<button
+										type="submit"
+										onclick="sendMail()"
+									>
+										Send Message
+									</button>
 								</div>
 							</form>
 						</div>
